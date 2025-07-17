@@ -1,0 +1,16 @@
+[project]
+name = "probability-tilt-toolkit"
+version = "0.0.1"
+description = "Tools and simulators for exploiting eliminative probability edges."
+authors = [{name = "Quantum Hobo & Korah", email = "email@example.com"}]
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "pandas", "click"]
+
+[project.optional-dependencies]
+quantum = ["qiskit"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
